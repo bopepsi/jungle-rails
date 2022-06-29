@@ -1,2 +1,13 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<br>
+<br>
+<br>
+
+<h1>Category Count: <span class="badge bg-secondary"><%= @category_count %></span></h1>
+
+<br>
+
+<h1>Product Count: <span class="badge bg-secondary"><%= @product_count %></span></h1>
+
+<hr>
+
+<p type="button" class="btn btn-primary"><%= link_to 'Products', [:admin, :products], class: "redirect-a" %></p>
