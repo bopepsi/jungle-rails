@@ -9,4 +9,5 @@ class Admin::DashboardController < ApplicationController
     @product_count = Product.distinct.count()
     
   end
+  
 end
